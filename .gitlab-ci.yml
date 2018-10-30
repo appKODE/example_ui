@@ -9,7 +9,7 @@ test:
   only:
    - master
   tags:
-   - qa-serv
+   - qa-group
   script:
    - pip install -r requirements.txt
    - robot spar.robot
