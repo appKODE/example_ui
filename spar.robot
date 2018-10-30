@@ -7,7 +7,7 @@ ${SERVER}   http://192.168.100.74:4723/wd/hub
 ${DEVICE_NAME}  EMULATOR
 ${APP}  ru.appkode.friendsclub.internal
 ${PLATFORM_NAME}    Android
-${PLATFORM_VERSION}    7.0
+${PLATFORM_VERSION}    6.0
 ${START_BUTTON}    ${APP}:id/welcome_controller_phone_button
 ${PHONE_INPUT}    ${APP}:id/phone_input_edit_text
 ${PROGRESS_BUTTON}    ${APP}:id/progress_button_button
