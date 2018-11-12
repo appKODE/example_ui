@@ -1,5 +1,6 @@
 before_script:
   - python --version
+  - pwd
 
 stages:
   - test
@@ -12,4 +13,4 @@ test:
    - qa-serv
   script:
    - pip install -r requirements.txt
-   - robot spar.robot
+   - robot --listener robotframework_reportportal.listener --variable RP_UUID:ebbcdda3-3a78-48e4-8de5-e7b458e2cae9 --variable RP_ENDPOINT:http://qa.appkode.ru:8080 --variable RP_LAUNCH:yn_TEST_EXAMPLE --variable RP_PROJECT:spar_ui spar.robot
