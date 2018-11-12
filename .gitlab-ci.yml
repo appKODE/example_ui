@@ -1,6 +1,6 @@
 before_script:
   - python --version
-  - pwd
+  - export PYTHONPATH=/builds/qa_team/spar-ui:$PYTHONPATH
 
 stages:
   - test
