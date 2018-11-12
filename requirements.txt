@@ -1,3 +1,4 @@
 robotframework
 six
 robotframework-appiumlibrary
+reportportal-client
