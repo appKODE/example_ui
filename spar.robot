@@ -3,7 +3,7 @@ Documentation    Suite description
 Library  AppiumLibrary
 
 *** Variables ***
-${SERVER}   http://localhost:4723/wd/hub
+${SERVER}   http://192.168.100.74:4723/wd/hub
 ${DEVICE_NAME}  EMULATOR
 ${APP}  ru.appkode.friendsclub.internal
 ${PLATFORM_NAME}    Android
